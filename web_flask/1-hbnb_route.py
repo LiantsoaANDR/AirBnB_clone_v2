@@ -10,6 +10,7 @@ def hello_hbnb():
     """ Route function to handle requests to the root URL."""
     return 'Hello HBNB!'
 
+
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     """Route function to handle requests to the '/hbnb' URL."""

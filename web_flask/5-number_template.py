@@ -56,7 +56,7 @@ def number_route(n):
 
 
 @app.route('/number_template/<int:n>', strict_slashes=False)
-def template():
+def template(n):
     """
     Handle request on /number_template/<n>.
     return a HTML page only if n is an int

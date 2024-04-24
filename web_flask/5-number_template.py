@@ -24,6 +24,7 @@ def hello_hbnb():
     """Route function, handle requests to the root URL"""
     return 'Hello HBNB!'
 
+
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     """Handle request on /hbnb, return 'HBNB'"""

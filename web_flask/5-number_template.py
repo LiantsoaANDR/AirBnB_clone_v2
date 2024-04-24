@@ -32,7 +32,7 @@ def hbnb():
 
 
 @app.route('/c/<text>', strict_slashes=False)
-def c_text():
+def c_text(text):
     """Handle request on /c/<text>, return 'C' + text ('_' replaced by ' ')"""
     t = text.replace('_', ' ')
     return 'C {}'.format(t)
